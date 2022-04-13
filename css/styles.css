@@ -1,0 +1,213 @@
+:root {
+  --title-color: rgb(33, 33, 33);
+  --focus-color: rgb(33, 150, 243);
+  --dominant-l-s: 0.03em;
+}
+
+.page {
+  font-family: roboto, tahoma, sans-serif;
+  color: rgb(117, 117, 117);
+}
+.current {
+  color: rgb(33, 150, 243);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*------------------------------HEADER-----------------------*/
+.header {
+  background-color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navigation-link {
+  color: rgb(33, 33, 33);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--focus-color);
+}
+
+.header-contacts-link {
+  color: rgb(117, 117, 117);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--focus-color);
+}
+.list {
+  list-style-type: none;
+}
+.logo {
+  font-family: raleway, tahoma, sans-serif;
+  font-weight: 700;
+  color: rgb(33, 150, 243);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: var(--dominant-l-s);
+}
+
+.header-logo {
+  color: black;
+}
+
+/*-------------------------------------MAIN---------------------------*/
+.hero {
+  background-color: rgb(47, 48, 58);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: rgb(24, 140, 232);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: var(--dominant-l-s);
+  color: var(--title-color);
+}
+.specifics-element-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.specifics-element-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--dominant-l-s);
+}
+
+.section-team {
+  background-color: rgb(245, 244, 250);
+}
+
+.team-element-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: var(--dominant-l-s);
+  color: var(--title-color);
+}
+
+.team-element-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: var(--dominant-l-s);
+}
+/*---------------------------------FOOTER------------------------------*/
+.footer {
+  background-color: rgb(46, 47, 59);
+}
+
+.footer-logo {
+  color: rgb(255, 255, 255);
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--dominant-l-s);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--focus-color);
+}
+.footer-contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--dominant-l-s);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--focus-color);
+}
+/*------------------------------------PORTFOLIO-----------------*/
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: var(--dominant-l-s);
+  color: var(--title-color);
+  background-color: rgb(245, 244, 250);
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: rgb(255, 255, 255);
+  background-color: var(--focus-color);
+}
+
+.portfolio-element-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-element-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: var(--dominant-l-s);
+  color: rgb(117, 117, 117);
+}
+
+.portfolio-element-title:hover,
+.portfolio-element-title:focus {
+  color: var(--focus-color);
+}
+.portfolio-element-text:hover,
+.portfolio-element-text:focus {
+  color: var(--focus-color);
+}
